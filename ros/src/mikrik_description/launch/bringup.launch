@@ -1,0 +1,9 @@
+<launch>
+	<param name="robot_description" command="$(find xacro)/xacro '$(find mikrik_description)/urdf/mikrik.xacro' --inorder"/>
+	<node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" respawn="false" output="screen" />
+
+	<include file="$(find mikrik_base)/launch/mikrik_base.launch" />
+	<include file="$(find mikrik_control)/launch/mikrik_control.launch" />
+	<include file="$(find mikrik_driver)/launch/mikrik_drivers.launch" />
+	<include file="$(find mikrik_teleop)/launch/mikrik_teleop.launch" />
+</launch>

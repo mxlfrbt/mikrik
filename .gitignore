@@ -1,0 +1,8 @@
+
+ros/.catkin_workspace
+ros/build/*
+ros/devel/*
+.vscode/*
+.clang-format
+
+ru4sphinx/*

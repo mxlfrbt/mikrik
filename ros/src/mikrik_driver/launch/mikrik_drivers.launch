@@ -1,0 +1,5 @@
+<launch>
+	<node name="encoders" pkg="mikrik_driver" type="encoders" output="screen" />
+	<node name="dc_motors" pkg="mikrik_driver" type="dc_motors" output="screen" />
+	<include file="$(find mikrik_driver)/launch/mikrik_pid.launch" />
+</launch>

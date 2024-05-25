@@ -1,0 +1,31 @@
+<launch> 
+    <node name="controller" pkg="pid" type="controller" ns="/mikrik/left_wheel" output="screen" > 
+        <param name="node_name" value="left_wheel_pid" /> 
+        <param name="Kp" value="5.0" /> 
+        <param name="Ki" value="0.0" /> 
+        <param name="Kd" value="0.02" /> 
+        <param name="upper_limit" value="10.23" /> 
+        <param name="lower_limit" value="-10.23" /> 
+        <param name="windup_limit" value="10.23" /> 
+        <param name="max_loop_frequency" value="100.0" /> 
+        <param name="min_loop_frequency" value="100.0" /> 
+        <remap from="/mikrik/left_wheel/setpoint" to="/mikrik/left_wheel/target_velocity" /> 
+        <remap from="/mikrik/left_wheel/state" to="/mikrik/left_wheel/current_velocity" /> 
+        <remap from="/mikrik/left_wheel/control_effort" to="/mikrik/left_wheel/pwm" /> 
+    </node> 
+ 
+    <node name="controller" pkg="pid" type="controller" ns="/mikrik/right_wheel" output="screen" > 
+        <param name="node_name" value="right_wheel_pid" /> 
+        <param name="Kp" value="5.0" /> 
+        <param name="Ki" value="0.0" /> 
+        <param name="Kd" value="0.02" /> 
+        <param name="upper_limit" value="10.23" /> 
+        <param name="lower_limit" value="-10.23" /> 
+        <param name="windup_limit" value="10.23" /> 
+        <param name="max_loop_frequency" value="100.0" /> 
+        <param name="min_loop_frequency" value="100.0" /> 
+        <remap from="/mikrik/right_wheel/setpoint" to="/mikrik/right_wheel/target_velocity" /> 
+        <remap from="/mikrik/right_wheel/state" to="/mikrik/right_wheel/current_velocity" /> 
+        <remap from="/mikrik/right_wheel/control_effort" to="/mikrik/right_wheel/pwm" /> 
+    </node> 
+</launch> 

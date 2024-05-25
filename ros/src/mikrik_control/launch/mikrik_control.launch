@@ -1,0 +1,5 @@
+<launch>
+	<rosparam file="$(find mikrik_control)/config/mikrik_controllers.yaml" command="load"/>
+	<node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false" output="screen"
+		args="joint_state_controller mobile_mikrik"></node>
+</launch>
