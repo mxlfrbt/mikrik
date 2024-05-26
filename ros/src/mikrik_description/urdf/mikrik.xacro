@@ -3,7 +3,7 @@
 <robot name="mikrik"
 	xmlns:xacro="http://www.ros.org/wiki/xacro">
 	<xacro:property name="clearance" value="0.018" />
-	<xacro:property name="wheel_radius" value="0.03195"/>
+	<xacro:property name="wheel_radius" value="0.0325"/>
 	<xacro:property name="wheel_separation" value="0.128"/>
 	<xacro:property name="wheel_width" value="0.026"/>
 	<xacro:property name="PI" value="3.1415926"/>
