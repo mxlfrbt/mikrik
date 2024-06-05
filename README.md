@@ -8,7 +8,7 @@ Project has two parts:
 - Host part - it is main brain of the robot. It will generate control commands, and move robot according to the program. It can be based on Intel NUC or Nvidia Jetson. On them you may run ROS2 or ROS1 application that will subscribe to the /cmd_vel topic and will publish value to your robot using ROS1-ROS2 bridge.
 - In this tutorial I will briefly cover how to connect robot to the Robotics SDK and run Visual SLAM using Realsense D435(i) camera. Same way you can connect Lidar, but I strongly recommend you to use 3D-cameras or even better an RGB cameras. RGB camera you can teach using AI to detect depth of the scene, but AI part is not covered in the tutorial, if you're a smart guy, you're welcome to contribute.
 
-# Please support the development and mikrik robot
+# Please support the development and buy mikrik robot
 
 If you feel that building a robot is going to be a challenge, please write me an email. You can order a chassis according to your needs. It can be a Ready-To-Run robot with all electronics included, or a chassis kit to build by yourself.
 
