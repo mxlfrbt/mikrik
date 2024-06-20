@@ -2,6 +2,8 @@
 
 # mikrik
 
+<img src="images/mikrik_logo_1.jpg" width="600" />
+
 An open-source two-wheel drive robot that runs Robotics SDK using Realsense camera Mikrik.
 Project has two parts:
 - Robot part - it runs ROS1 using Raspberry PI 4B. It creates an interface to communicate with the robot motors and encoders data. By finishing that part you will have a real ROS1 robot that can be controlled using a PS4 gamepad. After that you will need to connect it to the host part of the project.
