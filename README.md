@@ -14,7 +14,8 @@ Project has two parts:
 
 # Please support the development and buy mikrik robot
 
-If you feel that building a robot is going to be a challenge, please write me an email. You can order a chassis according to your needs. It can be a Ready-To-Run robot with all electronics included, or a chassis kit to build by yourself.
+If you feel that building a robot is going to be a challenge, you can purchase a ready-to-run robot from [my store on Tindie](https://www.tindie.com/products/mxlfrbt/mikrik-ready-to-run-robot-car-to-learn-ros2/).
+If you want to order a customized chassis according to your needs, drop me an email [mikrik@mxlfrbt.com](mikrik@mxlfrbt.com).
 
 
 # Robot Assembly
